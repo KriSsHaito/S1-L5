@@ -1,0 +1,3 @@
+In questa esercitazione ho voluto simulare un piccolo Ufficio, diviso in 4 branchie composte da Vendite, HR, IT e infine Assistenza Clienti, ognuna con la propria rispettiva VLAN utilizzante nel caso di Vendite la 10, HR la 20, IT la 30 e l'Assistenza Clienti la 40.
+In questo caso, si opta per un utilizzo di 4 VLAN per aumentare la sicurezza dello stabilimento ed evitare il possibile "sniffaggio" o furto di dati da terze parti che riescono ad intrufolarsi in una rete, oltre che all'evitare che un dipendente del reparto Vendite riceva informazioni e dati da reparti non a lui competenti.
+Le 4 VLAN vengono tutte gestite dallo switch che determina per ogni collegamento tramite Ethernet una diversa VLAN da affidare.
